@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.timer {
+    border: solid black;
+    height: 100px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+    font-size: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    position: relative;
+    left: 100px;
+
+
+}
+
+.button {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.start {
+    background-color: rgb(19, 219, 13);
+} 
+
+.stop {
+    background-color: red;
+}
+
+.reset {
+    background-color: blue;
+}

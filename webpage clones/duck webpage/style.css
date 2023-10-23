@@ -1,0 +1,48 @@
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+img {
+    height: 110px;
+    width: 110px;
+}
+
+.text {
+    display: flex;
+    
+}
+
+a{
+    padding-top: 15px;
+    text-decoration: none;
+    color: #0096FF;    
+}
+
+p {
+    color: grey;
+}
+
+input {
+    width: 450px;
+}
+
+.items {
+    position: relative;
+    bottom: 100px;
+}
+
+.fa-solid{
+    font-size: 15px;
+}
